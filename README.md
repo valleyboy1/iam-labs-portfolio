@@ -6,7 +6,7 @@ Welcome to my Identity & Access Management (IAM) learning portfolio! This reposi
 
 ## 📁 Lab Index
 
-| Lab No. | Title                           | Summary                               |
+| Lab No. 01 | Title: Lifecycle Management- Onboarding        | Summary                               |
 |--------|----------------------------------|----------------------------------------|
 | 01     | Lifecycle Management – Onboarding | Automate user creation and license assignment using PowerShell |
 | 02     | Role-Based Access Control (RBAC) | Assign and manage roles via Entra ID portal and PowerShell     |
@@ -42,7 +42,7 @@ This repo serves as:
 
 ## 💼 About Me
 
-I’m Valdez Lamont Brown, a dedicated learner transitioning into IAM after 23 years in warehouse operations. I’ve earned:
+I’m Valdez Brown, a dedicated learner transitioning into IAM after 23 years in warehouse operations. I’ve earned:
 - Microsoft Certified: Azure Fundamentals (AZ-900)
 - Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)
 - Working toward SC-300
