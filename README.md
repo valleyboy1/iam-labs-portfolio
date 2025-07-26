@@ -1,4 +1,4 @@
-# 🔐 IAM Labs Portfolio by Valdez Lamont Brown
+# 🔐 IAM Labs Portfolio by Valdez Brown
 
 Welcome to my Identity & Access Management (IAM) learning portfolio! This repository documents my hands-on labs as I prepare for roles in IAM, with a focus on Microsoft Entra ID (formerly Azure AD), PowerShell automation, and identity governance tools.
 
