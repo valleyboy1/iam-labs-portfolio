@@ -66,7 +66,7 @@ I’m passionate about secure onboarding/offboarding, access control, and automa
 ## 📫 Let’s Connect
 
 - [LinkedIn](https://www.linkedin.com/in/valdez-brown-10442176/) (Feel free to connect!)
-- GitHub: [@valleyboy1](https://github.com/valleyboy1) ← _Update this_
+- GitHub: [@valleyboy1](https://github.com/valleyboy1) 
 - YouTube Playlist: _Coming Soon!_
 
 ---
