@@ -1,0 +1,10 @@
+Screenshot Checklist:
+- Step1_ConnectToGraph.png
+- Step2_CreateUser.png
+- Step3_VerifyUser.png
+- Step4_SetUsageLocation.png
+- Step5_AssignLicense.png
+- Step5_VerifyLicense.png
+- Step6_UpdateUserInfo.png
+- Step7_DisableUser.png
+- Step8_DeleteUser.png (optional)

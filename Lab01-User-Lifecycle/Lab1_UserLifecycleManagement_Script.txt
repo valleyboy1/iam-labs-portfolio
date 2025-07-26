@@ -1,0 +1,39 @@
+# ==========================================
+# LAB 1: USER LIFECYCLE MANAGEMENT
+# ==========================================
+
+# 1. Connect to Microsoft Graph
+Connect-MgGraph -Scopes "User.ReadWrite.All", "Directory.Read.All"
+
+# 2. Create a New User
+New-MgUser `
+  -DisplayName "Tantanda Rutledge" `
+  -UserPrincipalName "t.rutledge@brownsense.net" `
+  -MailNickname "tantandarutledge" `
+  -PasswordProfile @{ 
+      ForceChangePasswordNextSignIn = $true
+      Password = "Almighty1"
+  } `
+  -AccountEnabled:$true
+
+# 3. Retrieve the User Object
+$user = Get-MgUser -UserId "t.rutledge@brownsense.net"
+
+# 4. Set Usage Location
+Update-MgUser -UserId $user.Id -UsageLocation "US"
+
+# 5. Assign License
+Set-MgUserLicense -UserId $user.Id `
+  -AddLicenses @{SkuId = "18a4bd3f-0b5b-4887-b04f-61dd0ee15f5e"} `
+  -RemoveLicenses @()
+
+# 6. Update User Info
+Update-MgUser -UserId $user.Id -DisplayName "T. Rutledge" -JobTitle "Marketing Manager"
+Get-MgUser -UserId $user.Id | Select DisplayName, JobTitle
+
+# 7. Disable the User
+Update-MgUser -UserId $user.Id -AccountEnabled:$false
+Get-MgUser -UserId $user.Id | Select DisplayName, AccountEnabled
+
+# 8. (Optional) Delete the User
+# Remove-MgUser -UserId $user.Id

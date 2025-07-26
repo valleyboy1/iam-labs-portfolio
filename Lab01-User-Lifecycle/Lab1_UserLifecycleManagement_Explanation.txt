@@ -1,0 +1,10 @@
+This file explains each script step from the lab.
+
+1. Connect-MgGraph: Authenticates your session with Microsoft Graph using necessary permissions.
+2. New-MgUser: Creates a new user in Microsoft Entra ID with login credentials.
+3. Get-MgUser: Retrieves the newly created user object.
+4. Update-MgUser (UsageLocation): Required step to enable license assignment.
+5. Set-MgUserLicense: Assigns a Microsoft 365 E5 license to the user using their object ID.
+6. Update-MgUser (Profile): Updates user properties like display name and job title.
+7. Update-MgUser (Disable): Disables the user account as part of offboarding.
+8. Remove-MgUser: (Optional) Deletes the user account from Entra ID.
