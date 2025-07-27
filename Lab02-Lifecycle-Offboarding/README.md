@@ -24,7 +24,8 @@ This lab simulates the secure offboarding process for a user in Microsoft Entra 
 
 ## 📺 Lab Walkthrough Video
 
-🎬 [Watch on YouTube](https://www.youtube.com/watch?v=If7aPiAOjoc)
+🎬 Paste your YouTube link here  
+📌 Example: `https://www.youtube.com/watch?v=If7aPiAOjoc`
 
 ---
 
@@ -43,18 +44,46 @@ This script uses the Microsoft Graph PowerShell SDK to:
 
 ## 🖼️ Diagram
 
-🧩 [View Diagram → Diagrams/lab02_offboarding_diagram_branded.png](./Diagrams/lab02_offboarding_diagram_branded.png)
+![Lab 2 Diagram](./Diagrams/Lab%202%20diagram.png)
 
-> Branded visual representation of both **Portal** and **PowerShell** offboarding steps in a swimlane diagram.
+This diagram outlines both Portal and PowerShell steps for securely offboarding a user in Microsoft Entra ID.
 
 ---
 
-## 📸 Screenshots
+## 📸 Step-by-Step Screenshots (Portal)
 
-| Portal View | PowerShell View |
-|-------------|-----------------|
-| ![Revoke Session Portal](./Images/revoke_session_portal.png) | ![Revoke Session PS](./Images/revoke_session_powershell.png) |
-| ![Remove License Portal](./Images/remove_license_portal.png) | ![Remove License PS](./Images/remove_license_powershell.png) |
+### Step 1: View all users  
+![Step 1 - Users List](./Images/Step1_Userslist.png)
+
+---
+
+### Step 2: Select User1  
+![Step 2 - User Selected](./Images/Step2_UserSelected.png)
+
+---
+
+### Step 3: Block Sign-In (Done in Lab 1)  
+![Step 3 - Block Sign-In](./Images/Step3_blocksignin.png)
+
+---
+
+### Step 4: Revoke Sessions  
+![Step 4 - Revoke Sessions](./Images/Step4_revokesession.png)
+
+---
+
+### Step 5: Unassign License  
+![Step 5 - Unassign License](./Images/Step5_unassignlicense.png)
+
+---
+
+### Step 6: Remove from Group  
+![Step 6 - Remove from Group](./Images/Step6_groupremoval.png)
+
+---
+
+### Step 7: Delete User (Optional)  
+![Step 7 - Delete User](./Images/Step7_DeleteUser.png)
 
 ---
 
