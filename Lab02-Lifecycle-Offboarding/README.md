@@ -24,8 +24,10 @@ This lab simulates the secure offboarding process for a user in Microsoft Entra 
 
 ## 📺 Lab Walkthrough Video
 
-🎬 Paste your YouTube link here  
-📌 Example: `https://www.youtube.com/watch?v=If7aPiAOjoc`
+## 📺 Lab Walkthrough Video
+
+[![Watch the video](https://img.youtube.com/vi/If7aPiAOjoc/maxresdefault.jpg)](https://www.youtube.com/watch?v=If7aPiAOjoc)
+
 
 ---
 
