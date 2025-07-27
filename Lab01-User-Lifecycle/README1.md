@@ -40,8 +40,12 @@ Key lifecycle steps:
 
 ---
 
-## 🎥 Video (Coming Soon)
-A full walk-through video demonstrating this lab with narration and execution will be added shortly.
+## 🎥 Video Demonstration
+
+[![Watch the Lab 01 Video](https://img.youtube.com/vi/gCVf0GMI3r0/hqdefault.jpg)](https://youtu.be/gCVf0GMI3r0)
+
+📺 [Click here to watch the full video on YouTube](https://youtu.be/gCVf0GMI3r0)
+
 
 ---
 
