@@ -1,0 +1,38 @@
+# Lab 3 - Troubleshooting Log for PowerShell RBAC Role Assignment
+
+## Issue 1: `Get-MgDirectoryRoleDefinition` not recognized
+**Error:** The term 'Get-MgDirectoryRoleDefinition' is not recognized...
+**Fix:** Installed and imported the missing module:
+```powershell
+Install-Module Microsoft.Graph.RoleManagement.Directory -Scope CurrentUser -Force
+Import-Module Microsoft.Graph.RoleManagement.Directory
+```
+
+---
+
+## Issue 2: `Install-Module` not recognized
+**Error:** The term 'Install-Module' is not recognized...
+**Fix:** PowerShellGet was broken. Reinstalled it manually with help from CoPilot by:
+- Downloading PowerShellGet and PackageManagement from the PowerShell Gallery
+- Extracting the `.nupkg` files
+- Copying to `C:\Program Files\WindowsPowerShell\Modules\`
+- Then importing:
+```powershell
+Import-Module PowerShellGet -Force
+Import-Module PackageManagement -Force
+```
+
+---
+
+## Issue 3: Role name not found
+**Error:** Role 'Microsoft Entra Joined Device Local Administrator' not found
+**Fix:** Discovered the correct role name using:
+```powershell
+Get-MgRoleManagementDirectoryRoleDefinition -All | Select-Object DisplayName
+```
+**Correct Role Name:** Azure AD Joined Device Local Administrator
+
+---
+
+## Final Result:
+All modules successfully loaded and role assigned using updated script.
