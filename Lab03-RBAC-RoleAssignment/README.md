@@ -76,3 +76,77 @@ New-MgRoleManagementDirectoryRoleAssignment `
 Get-MgRoleManagementDirectoryRoleAssignment -Filter "principalId eq '$($user.Id)'" -All |
     Where-Object { $_.RoleDefinitionId -eq $role.Id } |
     Format-List Id, PrincipalId, RoleDefinitionId
+
+
+# 📺 Lab 03 – YouTube Video Demo
+
+**Lab Title:** Role-Based Access Control (RBAC)  
+**Author:** Valdez Brown  
+**GitHub:** [github.com/valleyboy1](https://github.com/valleyboy1)
+
+---
+
+## 🎬 Watch the Lab Demo
+
+🔗 **Video Coming Soon**  
+<!-- Replace this link once your video is uploaded -->
+<!-- [Watch Demo on YouTube](https://youtube.com/your-video-link) -->
+
+---
+
+This video demonstrates:
+- Assigning the "Azure AD Joined Device Local Administrator" role to User5
+- Steps in the Microsoft Entra Portal
+- Verifying the assignment using PowerShell (Microsoft Graph SDK)
+
+# 🛠️ Lab 03 – Troubleshooting Log (Markdown Version)
+
+## ❌ Issue 1: `Get-MgDirectoryRoleDefinition` not recognized
+**Error Message:**  
+`The term 'Get-MgDirectoryRoleDefinition' is not recognized...`
+
+**Fix:**  
+Installed the missing module:
+```powershell
+Install-Module Microsoft.Graph.RoleManagement.Directory -Scope CurrentUser -Force
+Import-Module Microsoft.Graph.RoleManagement.Directory
+```
+
+---
+
+## ❌ Issue 2: `Install-Module` not recognized
+**Error Message:**  
+`The term 'Install-Module' is not recognized...`
+
+**Fix:**  
+PowerShellGet and PackageManagement modules were broken. They were reinstalled manually by:
+- Downloading `.nupkg` files
+- Extracting them
+- Copying the contents to:
+  ```
+  C:\Program Files\WindowsPowerShell\Modules\
+  ```
+- Then importing:
+```powershell
+Import-Module PowerShellGet -Force
+Import-Module PackageManagement -Force
+```
+
+---
+
+## ❌ Issue 3: Role Name Not Found
+**Error Message:**  
+`Role 'Microsoft Entra Joined Device Local Administrator' not found`
+
+**Fix:**  
+Discovered the correct role name using:
+```powershell
+Get-MgRoleManagementDirectoryRoleDefinition -All | Select-Object DisplayName
+```
+✅ Final role used: `"Azure AD Joined Device Local Administrator"`
+
+---
+
+## ✅ Final Result
+All modules were successfully installed, and the role was assigned using a validated PowerShell script.
+
