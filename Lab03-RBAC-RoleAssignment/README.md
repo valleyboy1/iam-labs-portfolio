@@ -87,10 +87,7 @@ Get-MgRoleManagementDirectoryRoleAssignment -Filter "principalId eq '$($user.Id)
 ---
 
 ## 🎬 Watch the Lab Demo
-
-🔗 **Video Coming Soon**  
-<!-- Replace this link once your video is uploaded -->
-<!-- [Watch Demo on YouTube](https://youtube.com/your-video-link) -->
+<!-- [Watch Demo on YouTube](https://youtu.be/URBZ23tY2c0) -->
 
 ---
 
