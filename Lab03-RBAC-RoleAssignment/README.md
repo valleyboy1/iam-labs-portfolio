@@ -86,17 +86,8 @@ Get-MgRoleManagementDirectoryRoleAssignment -Filter "principalId eq '$($user.Id)
 
 ---
 
-## 📺 YouTube Video Demo
 
-🎬 Watch the full lab walkthrough on YouTube:  
-[![Watch the video](http://img.youtube.com/vi/URBZ23tY2c0/0.jpg)](https://youtu.be/URBZ23tY2c0)
 
-> In this demo, I assign the "Azure AD Joined Device Local Administrator" role to a test user using Microsoft Entra ID and PowerShell via Microsoft Graph.
-
-This video demonstrates:
-- Assigning the "Azure AD Joined Device Local Administrator" role to User5
-- Steps in the Microsoft Entra Portal
-- Verifying the assignment using PowerShell (Microsoft Graph SDK)
 
 # 🛠️ Lab 03 – Troubleshooting Log (Markdown Version)
 
@@ -143,6 +134,14 @@ Discovered the correct role name using:
 Get-MgRoleManagementDirectoryRoleDefinition -All | Select-Object DisplayName
 ```
 ✅ Final role used: `"Azure AD Joined Device Local Administrator"`
+
+## 📺 YouTube Video Demo
+
+🎬 Watch the full lab walkthrough on YouTube:  
+[![Watch the video](http://img.youtube.com/vi/URBZ23tY2c0/0.jpg)](https://youtu.be/URBZ23tY2c0)
+
+> In this demo, I assign the "Azure AD Joined Device Local Administrator" role to a test user using Microsoft Entra ID and PowerShell via Microsoft Graph.
+
 
 ---
 
