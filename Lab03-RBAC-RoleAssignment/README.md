@@ -78,17 +78,12 @@ Get-MgRoleManagementDirectoryRoleAssignment -Filter "principalId eq '$($user.Id)
     Format-List Id, PrincipalId, RoleDefinitionId
 
 
-# 📺 Lab 03 – YouTube Video Demo
-
-**Lab Title:** Role-Based Access Control (RBAC)  
-**Author:** Valdez Brown  
-**GitHub:** [github.com/valleyboy1](https://github.com/valleyboy1)
-
 ---
 
 
 
 
+---
 # 🛠️ Lab 03 – Troubleshooting Log (Markdown Version)
 
 ## ❌ Issue 1: `Get-MgDirectoryRoleDefinition` not recognized
@@ -102,7 +97,7 @@ Install-Module Microsoft.Graph.RoleManagement.Directory -Scope CurrentUser -Forc
 Import-Module Microsoft.Graph.RoleManagement.Directory
 ```
 
----
+
 
 ## ❌ Issue 2: `Install-Module` not recognized
 **Error Message:**  
