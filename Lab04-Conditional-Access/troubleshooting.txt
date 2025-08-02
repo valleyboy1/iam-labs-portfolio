@@ -1,0 +1,17 @@
+# Troubleshooting - Conditional Access Lab
+
+## Issue:
+Unable to create Conditional Access policies.
+
+## Cause:
+Microsoft Entra tenant has Security Defaults enabled by default.
+Security Defaults enforce basic security for all users, which conflicts with custom Conditional Access policies.
+
+## Solution:
+1. Go to https://entra.microsoft.com
+2. Navigate to: Microsoft Entra ID > Properties
+3. Scroll to the bottom and click "Manage Security defaults"
+4. Set "Enable Security defaults" to "No"
+5. Click "Save"
+
+This will allow custom Conditional Access policies to be created and enforced.

@@ -1,0 +1,16 @@
+# How to Use the PowerShell Scripts for Lab 4 - Conditional Access
+
+This lab demonstrates how to use PowerShell and Microsoft Graph to create a Conditional Access policy in Microsoft Entra ID.
+
+1. Run `connect-graph.ps1` to authenticate to Microsoft Graph with the required permissions.
+   - Scope: Policy.ReadWrite.ConditionalAccess
+
+2. Run `create-ca-policy.ps1` to create a Conditional Access policy that:
+   - Targets a specific user (replace <USER_OBJECT_ID> in the script)
+   - Applies to Microsoft 365 (Office 365)
+   - Requires Multi-Factor Authentication (MFA)
+
+3. To delete the policy for testing or cleanup, run `cleanup-ca-policy.ps1`.
+   - Replace <POLICY_ID> with the actual ID of the policy returned from `Get-MgConditionalAccessPolicy`.
+
+These scripts help simulate an IAM engineer's role in automating identity protection and access controls using Microsoft Entra ID.
