@@ -14,7 +14,7 @@ This lab demonstrates how to create a Conditional Access policy in Microsoft Ent
 
 ## 🖼️ Conditional Access Diagram
 
-![Conditional Access Diagram](conditional-access-diagram.png)
+![Conditional Access Diagram](Conditional%20Access%20diagram.png)
  
 **Diagram designed by Valdez Brown**
 
