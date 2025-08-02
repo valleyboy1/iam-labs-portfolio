@@ -27,7 +27,7 @@ This lab demonstrates how to create a Conditional Access policy in Microsoft Ent
 ## 🛠️ Tools Used
 - Microsoft Entra ID Portal
 - Microsoft Graph PowerShell SDK
-- Microsoft Visio (for diagram, not included)
+- Microsoft Visio (for diagram, included)
 - Microsoft 365 E5 Developer Tenant
 
 ---
@@ -52,3 +52,12 @@ Common issue: **Security Defaults** must be disabled before Conditional Access p
 - Microsoft Graph Automation
 - Identity and Access Management (IAM)
 
+---
+
+## 🖼️ Conditional Access Diagram
+
+![Conditional Access Diagram](./conditional-access-diagram.png)
+
+Designed by **Valdez Brown**
+
+---
