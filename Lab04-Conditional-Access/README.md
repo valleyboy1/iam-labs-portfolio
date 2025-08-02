@@ -49,9 +49,11 @@ Common issue: **Security Defaults** must be disabled before Conditional Access p
 ---
 
 ## 🔗 Related Labs
-- [Lab 1 – Lifecycle Onboarding](../Lab01-Lifecycle-Onboarding)
-- [Lab 2 – Conditional Access MFA by Location](../Lab02-Conditional-Access)
-- [Lab 3 – Role-Based Access Control (RBAC)](../Lab03-RBAC)
+
+- [Lab 1 – User Lifecycle Onboarding](https://github.com/valleyboy1/iam-labs-portfolio/tree/main/Lab01-Lifecycle-Onboarding)
+- [Lab 2 – Lifecycle Offboarding](https://github.com/valleyboy1/iam-labs-portfolio/tree/main/Lab02-Lifecycle-Offboarding)
+- [Lab 3 – RBAC Role Assignment](https://github.com/valleyboy1/iam-labs-portfolio/tree/main/Lab03-RBAC)
+
 
 ---
 
