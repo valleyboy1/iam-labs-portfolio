@@ -15,7 +15,7 @@ This lab demonstrates how to automate license assignment in Microsoft Entra ID u
 
 ## 📽️ Lab Video Walkthrough
 Watch the full video demo here:  
-👉 [https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+👉 [https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://www.youtube.com/watch?v=_e2fK14tCxc)
 
 > In this video, I walk through the steps of creating a security group, assigning a Microsoft 365 E5 license to that group, and confirming license inheritance by a member user. No PowerShell or screenshots were used—just straight portal work to get it done quickly and cleanly.
 
