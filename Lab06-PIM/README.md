@@ -45,13 +45,7 @@ The command `Get-MgDirectoryRoleDefinition` and related PIM cmdlets are not avai
 
 ---
 
-## 📂 Folder Contents
 
-| File | Description |
-|------|-------------|
-| `README.md` | This file |
-| *(optional)* `Lab06-PIM-Eligibility.ps1` | PowerShell automation script (in progress) |
-| *(optional)* `diagram.png` | Visual flow of the lab |
 
 ---
 
