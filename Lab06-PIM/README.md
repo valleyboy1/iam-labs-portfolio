@@ -3,7 +3,7 @@
 This lab demonstrates how to use **Microsoft Entra Privileged Identity Management (PIM)** to manage just-in-time access to privileged roles such as **Security Administrator**.
 
 > 🎥 **YouTube Demo**: [Watch the Lab Video](https://www.youtube.com/watch?v=1bRKIHS2rA0)  
-> *(Replace with your actual video link)*
+
 
 ---
 
