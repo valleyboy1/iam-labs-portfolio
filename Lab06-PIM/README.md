@@ -1,61 +1,64 @@
 # 🔐 Lab 6: Privileged Identity Management (PIM)
 
-This lab demonstrates how to use Microsoft Entra's Privileged Identity Management (PIM) to make a user eligible for a privileged role, activate the role, and configure activation settings—all from the **Microsoft Entra admin center**.
+This lab demonstrates how to use **Microsoft Entra Privileged Identity Management (PIM)** to manage just-in-time access to privileged roles such as **Security Administrator**.
 
-> 🎥 **YouTube Demo**: [Watch the Lab Video](https://www.youtube.com/your-video-link-here)  
+> 🎥 **YouTube Demo**: [Watch the Lab Video](https://www.youtube.com/watch?v=1bRKIHS2rA0)  
 > *(Replace with your actual video link)*
 
 ---
 
-## ⚙️ Steps to Complete PIM Lab (Portal Only)
+## ✅ Lab Tasks Completed (Portal Only)
 
-### ✅ Step 1: Navigate to PIM
-1. Sign in at [https://entra.microsoft.com](https://entra.microsoft.com)
-2. Go to **Identity** > **Privileged Identity Management**
-3. Click **Microsoft Entra roles**
-
----
-
-### ✅ Step 2: Assign Eligibility to Yourself
-1. In the PIM blade, click **Assignments**
-2. Click **+ Add assignments**
-3. Complete the wizard:
-   - **Role**: Select a role (e.g., `Security Administrator`)
-   - **Assignment type**: `Eligible`
-   - **Members**: Select **your own account**
-4. Click **Next** and then **Assign**
+- Enabled Microsoft Entra PIM
+- Assigned PIM eligibility for the **Security Administrator** role
+- Configured activation settings:
+  - Required MFA
+  - Required justification
+- Activated the eligible role as a test user
+- Verified that the role was assigned and active
 
 ---
 
-### ✅ Step 3: Configure Role Activation Settings (Optional)
-1. From **Microsoft Entra roles**, click **Role settings**
-2. Choose the same role (e.g., `Security Administrator`)
-3. Adjust settings as needed:
-   - ✅ Require MFA: **Yes**
-   - ✅ Require Justification: **Yes**
-   - ❌ Require Ticket Number: Optional
-4. Click **Save**
+## ⚠️ Automation Status (PowerShell + Graph SDK)
+
+Due to instability and function overflow issues with the Microsoft Graph PowerShell SDK (v2.x), automation for this lab is currently postponed.
+
+The command `Get-MgDirectoryRoleDefinition` and related PIM cmdlets are not available or functional under current SDK constraints. A `.ps1` script is in progress using known role IDs instead.
+
+✅ Once stable, automation for eligibility assignment and activation will be included in this repo.
 
 ---
 
-### ✅ Step 4: Activate the Role
-1. In the left menu, go to **My roles**
-2. Find the **Eligible** role you just assigned
-3. Click **Activate**
-4. Provide required justification
-5. Click **Activate**
+## 🧠 Key Concepts
+
+- **Privileged Role Administrator** vs **Global Administrator**
+- **Eligible** vs **Active** role assignment
+- **Just-In-Time (JIT)** role access
+- Using PIM to reduce standing access
 
 ---
 
-### ✅ Step 5: Verify Activation
-- Navigate to **Active assignments**
-- Confirm the role is now listed as **Active**
+## 🛠️ Tools Used
+
+- Microsoft Entra Admin Center (Portal)
+- Microsoft Entra E5 Developer Tenant
 
 ---
 
-## 📌 Notes
-- This lab focuses only on using the **Entra portal**.
-- PowerShell and Microsoft Graph API automation will be handled in a separate follow-up lab.
+## 📂 Folder Contents
+
+| File | Description |
+|------|-------------|
+| `README.md` | This file |
+| *(optional)* `Lab06-PIM-Eligibility.ps1` | PowerShell automation script (in progress) |
+| *(optional)* `diagram.png` | Visual flow of the lab |
+
+---
+
+## 🔗 Related Labs
+
+- [Lab 4: Conditional Access](../Lab04-ConditionalAccess/README.md)
+- [Lab 5: Group-Based Licensing](../Lab05-GroupBasedLicensing/README.md)
 
 ---
 
