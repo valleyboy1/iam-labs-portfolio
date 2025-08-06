@@ -58,7 +58,7 @@ The command `Get-MgDirectoryRoleDefinition` and related PIM cmdlets are not avai
 ## 🔗 Related Labs
 
 - [Lab 4: Conditional Access (Basic)](https://github.com/valleyboy1/iam-labs-portfolio/blob/main/Lab04-Conditional-Access/README.md)
-- [Lab 5: Group-Based Licensing](https://github.com/valleyboy1/iam-labs-portfolio/blob/main/Lab05-GroupBasedLicensing/README.md)
+- [Lab 5: Group-Based Licensing](https://github.com/valleyboy1/iam-labs-portfolio/blob/main/Lab05-Group-Based-Licensing/README.md)
 
 ---
 
