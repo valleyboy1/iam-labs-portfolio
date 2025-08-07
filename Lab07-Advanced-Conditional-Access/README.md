@@ -54,7 +54,11 @@ This lab builds upon the basics learned in **Lab 4: Conditional Access** by laye
 ---
 
 ## 📺 Demo Video
-👉 _Coming soon_ — YouTube video walkthrough of this lab.
+
+[![Watch the Lab 07 video on YouTube](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://youtu.be/Qp_mlMXNGzo)
+
+> 🎥 This video walks through creating advanced conditional access policies using the Microsoft Entra Admin Center, including blocking by location, enforcing MFA on high-risk sign-ins, and applying session controls.
+
 
 ---
 
