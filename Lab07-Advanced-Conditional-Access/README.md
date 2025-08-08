@@ -72,3 +72,21 @@ This lab builds upon the basics learned in **Lab 4: Conditional Access** by laye
 You can now automate these policies using PowerShell and the Microsoft Graph SDK in **Lab 07 (Phase 2)**.
 
 ---
+
+## ⚙️ Phase 2 – Automation (PowerShell + Microsoft Graph)
+
+This phase recreates the three advanced Conditional Access policies using **Microsoft Graph PowerShell**.
+
+### Files
+- `Lab07_CA_Automation.ps1` – Creates (or skips, if already present) the three CA policies
+- `Lab07_CA_Automation_Explanation.md` – What the script does, required permissions, and validation steps
+
+### Prereqs
+- Microsoft Graph SDK installed
+- Role: Global Administrator or Conditional Access Administrator
+- **Named Location** called `United States` (Countries/Regions)
+
+### Connect to Graph
+```powershell
+Connect-MgGraph -Scopes "Policy.ReadWrite.ConditionalAccess","Directory.Read.All"
+
