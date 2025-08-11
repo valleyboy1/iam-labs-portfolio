@@ -67,13 +67,13 @@ Lab08-End-to-End-Lifecycle/
 ---
 
 ## 🔗 Related Labs
-- [Lab 01 – Lifecycle Onboarding](../Lab01-Lifecycle-Onboarding/README.md)
+- [Lab 01 – Lifecycle Onboarding](https://github.com/valleyboy1/iam-labs-portfolio/blob/main/Lab01-User-Lifecycle/README1.md)
 - [Lab 02 – Lifecycle Offboarding](../Lab02-Lifecycle-Offboarding/README.md)
-- [Lab 03 – RBAC Role Assignments](../Lab03-RBAC-Role-Assignments/README.md)
+- [Lab 03 – RBAC Role Assignments](https://github.com/valleyboy1/iam-labs-portfolio/blob/main/Lab03-RBAC-RoleAssignment/README.md)
 - [Lab 04 – Conditional Access Policies](../Lab04-Conditional-Access/README.md)
 - [Lab 05 – Group-Based Licensing](../Lab05-Group-Based-Licensing/README.md)
 - [Lab 06 – Privileged Identity Management](../Lab06-PIM/README.md)
-- [Lab 07 – Automation with Graph SDK](../Lab07-Automation-GraphSDK/README.md)
+- [Lab 07 – Automation with Graph SDK](https://github.com/valleyboy1/iam-labs-portfolio/blob/main/Lab07-Advanced-Conditional-Access/README.md)
 
 ---
 
