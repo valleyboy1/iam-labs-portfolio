@@ -74,6 +74,7 @@ Lab08-End-to-End-Lifecycle/
 - [Lab 05 – Group-Based Licensing](../Lab05-Group-Based-Licensing/README.md)
 - [Lab 06 – Privileged Identity Management](../Lab06-PIM/README.md)
 - [Lab 07 – Automation with Graph SDK](https://github.com/valleyboy1/iam-labs-portfolio/blob/main/Lab07-Advanced-Conditional-Access/README.md)
+- [Lab 08 – IAM End-to-End Lifecycle](./Lab08-End-to-End-Lifecycle/README.md)
 
 ---
 
