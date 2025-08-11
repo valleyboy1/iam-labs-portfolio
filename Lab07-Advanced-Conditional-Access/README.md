@@ -78,7 +78,7 @@ You can now automate these policies using PowerShell and the Microsoft Graph SDK
 This phase recreates the three advanced Conditional Access policies using **Microsoft Graph PowerShell**.
 
 ### 📺 Demo Video
-[![Watch the Phase 2 Automation video on YouTube](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+[![Watch the Phase 2 Automation video on YouTube](https://img.youtube.com/vi/OSHOKB4FMwk/0.jpg)](https://www.youtube.com/watch?v=OSHOKB4FMwk)
 
 > 🎥 In this video, I walk through creating the three Conditional Access policies from Phase 1 entirely through Microsoft Graph PowerShell — including connecting, validating, and checking for duplicates.
 
