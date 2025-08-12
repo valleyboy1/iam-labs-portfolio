@@ -55,7 +55,7 @@ Lab08-End-to-End-Lifecycle/
 ---
 
 ## 📺 Video Demonstration
-[![Lab 08 Video Demo](https://img.youtube.com/vi/OSHOKB4FMwk/0.jpg)](https://www.youtube.com/watch?v=OSHOKB4FMwk)  
+[![Lab 08 Video Demo](https://img.youtube.com/vi/85DydpmJKMA/0.jpg)](https://www.youtube.com/watch?v=85DydpmJKMA)  
 
 
 ---
