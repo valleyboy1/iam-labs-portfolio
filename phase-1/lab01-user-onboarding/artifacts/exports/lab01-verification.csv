@@ -1,0 +1,26 @@
+DisplayName,UserPrincipalName,Department,JobTitle,Groups
+Alicia Reed,alicia.reed@brownsense.net,Sales,Account Executive,GG-Dept-Sales
+Jordan King,jordan.king@brownsense.net,Ops,Ops Coordinator,GG-Dept-Ops
+Priya Shah,priya.shah@brownsense.net,IT,IT Support,GG-Dept-IT
+Marcus Lee,marcus.lee@brownsense.net,Sales,Sales Associate,GG-Dept-Sales
+Elena Ruiz,elena.ruiz@brownsense.net,Ops,Operations Analyst,GG-Dept-Ops
+Noah Chen,noah.chen@brownsense.net,IT,IT Technician,GG-Dept-IT
+Tanya Brooks,tanya.brooks@brownsense.net,Sales,Sales Operations,GG-Dept-Sales
+Diego Martin,diego.martin@brownsense.net,Ops,Ops Specialist,GG-Dept-Ops
+Sana Patel,sana.patel@brownsense.net,IT,IT Service Desk,GG-Dept-IT
+Wesley Park,wesley.park@brownsense.net,Sales,Sales Coordinator,GG-Dept-Sales
+Ava Johnson,ava.johnson@brownsense.net,Sales,Marketing Specialist,GG-Dept-Sales
+Lucas Wright,lucas.wright@brownsense.net,Ops,Operations Planner,GG-Dept-Ops
+Emma Scott,emma.scott@brownsense.net,IT,Systems Analyst,GG-Dept-IT
+Omar Diaz,omar.diaz@brownsense.net,Sales,Sales Development Rep,GG-Dept-Sales
+Grace Liu,grace.liu@brownsense.net,IT,Data Support Engineer,GG-Dept-IT
+Jason Moore,jason.moore@brownsense.net,Ops,Ops Process Lead,GG-Dept-Ops
+Nina Thomas,nina.thomas@brownsense.net,Sales,Inside Sales Rep,GG-Dept-Sales
+Daniel Carter,daniel.carter@brownsense.net,IT,Infrastructure Tech,GG-Dept-IT
+Sophia Rivera,sophia.rivera@brownsense.net,Ops,Warehouse Ops,GG-Dept-Ops
+Ethan Bell,ethan.bell@brownsense.net,IT,Field Technician,GG-Dept-IT
+Maya Green,maya.green@brownsense.net,Sales,Sales Admin,GG-Dept-Sales
+Benjamin Ross,benjamin.ross@brownsense.net,Ops,Ops Analyst,GG-Dept-Ops
+Isabella Turner,isabella.turner@brownsense.net,IT,Helpdesk Tech,GG-Dept-IT
+Carter Hall,carter.hall@brownsense.net,Sales,Sales Rep,GG-Dept-Sales
+Chloe Adams,chloe.adams@brownsense.net,Ops,Ops Scheduler,GG-Dept-Ops
