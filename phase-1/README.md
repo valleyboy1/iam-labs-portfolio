@@ -122,4 +122,4 @@ We’ll automate user disablement, group cleanup, and move offboarded users into
 
 ---
 
-Would you like me to generate a **matching README.md for Lab 02** (Offboarding) next so it fits perfectly in your Phase 1 folder structure?
+
