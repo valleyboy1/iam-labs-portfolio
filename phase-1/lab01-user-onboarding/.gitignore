@@ -1,0 +1,3 @@
+# Ignore exported secrets (but keep a placeholder)
+phase-1/**/artifacts/exports/*
+!phase-1/**/artifacts/exports/.gitkeep
